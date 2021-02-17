@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# [벨로퍼트와 함께하는 모던 리액트](https://react.vlpt.us/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
