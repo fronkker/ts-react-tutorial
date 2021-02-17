@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-function Hello() {
-    return <div>안녕하세요</div>
+export default class Hello extends Component {
+  static defaultProps = {
+    name: 'DEFAULT'
+  }
+  
+  render() {
+    return <div style={{ color: this.props.color }}>안녕하세요 {this.props.name}</div>
+  }
 }
-
-export default Hello;
