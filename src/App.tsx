@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from "./component/Hello";
 import Wrapper from "./component/Wrapper";
+import Counter from "./component/Counter";
 
 function App() {
   const name = 'react';
@@ -15,12 +16,17 @@ function App() {
   }
 
   return (
-    <Wrapper>
+    <div className="App">
       <Hello name="HanBeom"/>
       <Hello color="blue"/>
-      <div style={style}>{name}</div>
-      <div className="gray-box"/>
-    </Wrapper>
+      <Wrapper>
+        <div style={style}>{name}</div>
+        <div className="gray-box"/>
+      </Wrapper>
+      <Counter isSpecial={true} />
+      <Counter />
+      <Counter isSpecial />
+    </div>
   );
 }
 
