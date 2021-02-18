@@ -4,6 +4,7 @@ import './App.css';
 import Hello from "./component/Hello";
 import Wrapper from "./component/Wrapper";
 import Counter from "./component/Counter";
+import InputSample from "./component/InputSample";
 
 function App() {
   const name = 'react';
@@ -26,6 +27,8 @@ function App() {
       <Counter isSpecial={true} />
       <Counter />
       <Counter isSpecial />
+
+      <InputSample />
     </div>
   );
 }
