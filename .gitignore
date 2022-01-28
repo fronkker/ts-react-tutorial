@@ -24,3 +24,5 @@ yarn-error.log*
 
 # IntelliJ
 .idea/
+yarn.lock
+package-lock.json
